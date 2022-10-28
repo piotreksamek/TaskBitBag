@@ -1,0 +1,9 @@
+sylius:
+    product:
+        form:
+            color:
+                label: Kolor
+                red: Czerwony
+                blue: Niebieski
+                green: Zielony
+                    

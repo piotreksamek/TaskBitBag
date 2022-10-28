@@ -1,0 +1,34 @@
+sylius_grid:
+    grids:
+        sylius_admin_product:
+            fields:
+                image:
+                    type: twig
+                    label: sylius.ui.image
+                    path: .
+                    options:
+                        template: "@SyliusAdmin/Product/Grid/Field/image.html.twig"
+                    position: 0
+                code:
+                    type: string
+                    label: sylius.ui.code
+                    sortable: ~
+                    position: 1
+                name:
+                    type: twig
+                    label: sylius.ui.name
+                    sortable: translation.name
+                    options:
+                        template: "@SyliusAdmin/Product/Grid/Field/name.html.twig"
+                    position: 2
+                mainTaxon:
+                    type: twig
+                    label: sylius.ui.main_taxon
+                    options:
+                        template: "@SyliusAdmin/Product/Grid/Field/mainTaxon.html.twig"
+                    position: 3    
+                color:
+                    type: string
+                    label: sylius.ui.color
+                    position: 4
+    

@@ -1,0 +1,8 @@
+sylius:
+    product:
+        form:
+            color:
+                label: Color
+                red: Red
+                blue: Blue
+                green: Green
