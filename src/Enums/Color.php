@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Enums;
 
-abstract class Color
+final class Color implements ColorInterface
 {
     public const RED = 'Red';
     public const GREEN = 'Green';
